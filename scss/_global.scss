@@ -100,3 +100,24 @@ img::-moz-selection {
   background: url(../img/black-orchid.png),
     linear-gradient(to left, $secondary, $primary);
 }
+
+.where-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  padding-top: 16px;
+}
+
+.maps-container {
+  overflow: hidden;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.license-section {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}

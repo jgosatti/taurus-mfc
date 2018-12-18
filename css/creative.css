@@ -112,6 +112,36 @@ img::-moz-selection {
   background: url(../img/black-orchid.png), linear-gradient(to left, #16243a, #db343c);
 }
 
+.where-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  text-align: right;
+  padding-top: 16px;
+}
+
+.maps-container {
+  overflow: hidden;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.license-section {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
